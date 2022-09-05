@@ -1,0 +1,15 @@
+{
+  "name": "boladeneve_diaconia",
+  "version": "1.0.0",
+  "description": "Programa responsável por direcionar posição dos diáconos no culto",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron src/."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^20.1.1"
+  }
+}
