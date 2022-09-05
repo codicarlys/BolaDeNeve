@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'" />
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'"/>
+    <link rel="stylesheet" type="text/css" href="style.css" >
+    <title>Programa Diaconia Bola de Neve SCS</title>
+  </head>
+  <body>
+    <div>
+      <h3>Selecione Grupo da Diaconia</h3>
+    </div>
+    <div class=""container>
+      <label><input type="radio" name="grupoDiaconia" value="Grupo1A">Grupo 1A</label>
+      <label><input type="radio" name="grupoDiaconia" value="Grupo1B">Grupo 1B</label>
+      <label><input type="radio" name="grupoDiaconia" value="Grupo2A">Grupo 2A</label>
+      <label><input type="radio" name="grupoDiaconia" value="Grupo2B">Grupo 2B</label>
+      <button>Continuar</button>
+    </div>
+
+    <!-- <div class="list-choice">
+        <div class="list-choice-title">Grupos Diaconia</div>
+        <div class="list-choice-objects">
+          <div><input type="radio" name="grupoDiaconia" value="Grupo 1A"><span>Grupo 1A</span>
+          <div><input type="radio" name="grupoDiaconia" value="Grupo 1B"><span>Grupo 1B</span></div>
+          <div><input type="radio" name="grupoDiaconia" value="Grupo 2A"><span>Grupo 2A</span></div>
+          <div><input type="radio" name="grupoDiaconia" value="Grupo 2B"><span>Grupo 2B</span></div>
+        </div>
+    </div> -->
+    
+    <script src="./renderer.js"></script>
+  </body>
+</html>
